@@ -128,6 +128,8 @@
 #![feature(external_doc)]
 #![feature(associated_type_bounds)]
 
+extern crate nocorelib;
+
 #[prelude_import]
 #[allow(unused)]
 use prelude::v1::*;
