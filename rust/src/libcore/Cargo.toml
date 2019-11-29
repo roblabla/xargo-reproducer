@@ -21,7 +21,7 @@ name = "corebenches"
 path = "../libcore/benches/lib.rs"
 
 [dependencies]
-nocorelib = { path = "../../../nocorelib" }
+nocorelib = { git = "https://github.com/roblabla/xargo-reproducer" }
 
 [dev-dependencies]
 rand = "0.7"

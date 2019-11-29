@@ -3,11 +3,14 @@
 [[package]]
 name = "nocorelib"
 version = "0.1.0"
+source = "git+https://github.com/roblabla/xargo-reproducer#6fbe973b6efeb8b87667d04c916a17f062b6a7f3"
 
 [[package]]
 name = "reproducer"
 version = "0.1.0"
 dependencies = [
- "nocorelib 0.1.0",
+ "nocorelib 0.1.0 (git+https://github.com/roblabla/xargo-reproducer)",
 ]
 
+[metadata]
+"checksum nocorelib 0.1.0 (git+https://github.com/roblabla/xargo-reproducer)" = "<none>"

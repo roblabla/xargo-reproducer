@@ -7,5 +7,4 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-nocorelib = { path = "nocorelib" }
-
+nocorelib = { git = "https://github.com/roblabla/xargo-reproducer" }
